@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to top left, rgb(50,50,50), rgb(65,65,65));
+}
+h1 {
+    color: rgb(210,210,210);
+}
+#punkteS1,#punkteS2,#wurf,#wuerfeS1,#wuerfeS2,#auswertung {
+    color: rgb(210,210,210);
+}
+#spielbeschreibungtf {
+    color: rgb(210,210,210);
+    font-size: large;
+    font-family: sans-serif;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+}
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+.three {
+    grid-column: 1;
+    grid-row: 3;
+}
+.four {
+    grid-column: 2;
+    grid-row: 3;
+}
+.five {
+    grid-column: 1;
+    grid-row: 4;
+}
+.six {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.seven {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.eight {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.nine {
+    grid-column: 1;
+    grid-row: 10;
+}
+.ten {
+    grid-column: 2;
+    grid-row: 11;
+}
+
+.eleven {
+    grid-column: 2;
+    grid-row: 12;
+}
+.twelve {
+    grid-column: 3;
+    grid-row: 15;
+}

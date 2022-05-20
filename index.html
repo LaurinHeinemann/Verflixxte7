@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Verflixxte 7</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+<h1> Verflixxte 7 </h1>
+<div class="wrapper">
+    <div id="wurf" class="two">Wurf:</div>
+    <div id="punkteS1" class="three">Punkte Spieler 1:</div>
+    <div id="punkteS2" class="four">Punkte Spieler 2:</div>
+    <div id="wuerfeS1" class="five">Anzahl Würfe Spieler 1:</div>
+    <div id="wuerfeS2" class="six">Anzahl Würfe Spieler 2:</div>
+    <div class="seven"><!-- Raised button -->
+        <button id="wuerfelBtn1" onclick="wuerfeln1()" class="mdl-button mdl-js-button mdl-button--raised">
+            Würfeln Spieler 1
+        </button></div>
+    <div class="eight"><!-- Raised button -->
+        <button disabled="false" id="wuerfelBtn2" onclick="wuerfeln2()" class="mdl-button mdl-js-button mdl-button--raised">
+            Würfeln Spieler 2
+        </button></div>
+    <div id="auswertung" class="nine"></div>
+    <div class="ten"><!-- Raised button -->
+        <button id="rundeBeendenBtn" onclick="rundeBeenden()" class="mdl-button mdl-js-button mdl-button--raised">
+            Zug beenden
+        </button></div>
+    <div class="eleven"><!-- Raised button -->
+        <button disabled="false" id="neuesSpielBtn" onclick="reload()" class="mdl-button mdl-js-button mdl-button--raised">
+            Neues Spiel
+        </button>
+    </div>
+    <div class="twelve"><p id="spielbeschreibungtf" ></p><!-- Raised button -->
+        <button id="spielbeschreibungbtn" onclick="spielbeschreibung()" class="mdl-button mdl-js-button mdl-button--raised">
+            Spielbeschreibung
+        </button></div>
+</div>
+</body>
+</html>
