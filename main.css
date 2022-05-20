@@ -1,14 +1,31 @@
 body {
     background: linear-gradient(to top left, rgb(50,50,50), rgb(65,65,65));
 }
-h1 {
+#ueberschrift {
+    color: rgb(210,210,210);
+    font-size: 90px;
+    font-family: Bahnschrift;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(25,25,25);
+    text-decoration-thickness: 3px;
+}
+#punkteS1,#punkteS2,#wuerfeS1,#wuerfeS2 {
     color: rgb(210,210,210);
 }
-#punkteS1,#punkteS2,#wurf,#wuerfeS1,#wuerfeS2,#auswertung {
+#auswertung {
     color: rgb(210,210,210);
+    font-size: 20px;
+    font-family: Bahnschrift;
+}
+#wurf {
+    color: rgb(210,210,210);
+    font-size: 50px;
+    font-family: Bahnschrift;
 }
 #spielbeschreibungtf {
-    color: rgb(210,210,210);
+    color: rgb(210, 210, 210);
     font-size: large;
     font-family: sans-serif;
 }
@@ -19,54 +36,54 @@ h1 {
     grid-auto-rows: minmax(10px, auto);
 }
 .one {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 3;
+    grid-row: 14;
 }
 .two {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 6;
 }
 .three {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 9;
 }
 .four {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 9;
 }
 .five {
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 10;
 }
 .six {
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 10;
 }
 
 .seven {
     grid-column: 1;
-    grid-row: 6;
+    grid-row: 12;
 }
 
 .eight {
     grid-column: 2;
-    grid-row: 6;
+    grid-row: 12;
 }
 
 .nine {
     grid-column: 1;
-    grid-row: 10;
+    grid-row: 16;
 }
 .ten {
     grid-column: 2;
-    grid-row: 11;
+    grid-row: 17;
 }
 
 .eleven {
     grid-column: 2;
-    grid-row: 12;
+    grid-row: 18;
 }
 .twelve {
     grid-column: 3;
-    grid-row: 15;
+    grid-row: 30;
 }
