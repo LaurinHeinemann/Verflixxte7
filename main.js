@@ -37,6 +37,10 @@ function wuerfeln2() {
     if (x2 === 7) {
         verflixxteSiebenS2()
     }
+    if (punkte2 > punkte1) {
+        rundeBeenden2()
+        spielende()
+    }
     if (anzahlWuerfeS2 >= anzahlWuerfeS1) {
         rundeBeenden2()
         spielende()
@@ -85,14 +89,12 @@ function rundeBeenden2() {
 function spielende() {
     if (punkte1 < punkte2) {
         document.getElementById("auswertung").innerHTML = "Spieler 2 gewinnt, Herzlichen Glückwunsch!"
-    } else {
-        if (punkte2 < punkte1) {
+    } else if (punkte2 < punkte1) {
             document.getElementById("auswertung").innerHTML = "Spieler 1 gewinnt, Herzlichen Glückwunsch!"
         } else {
             document.getElementById("auswertung").innerHTML = "Unentschieden! Noch eine Runde?"
         }
     }
-}
 
 function reload() {
     location.reload()
